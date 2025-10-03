@@ -38,7 +38,7 @@ let tags = null;
 let condecorates = null;
 let divisions = null;
 
-$.get('./apps/police.html', function (data) {
+$.get('apps/police.html', function (data) {
 	if (data) {
 		$('.apps').html(data);
 	} else {
